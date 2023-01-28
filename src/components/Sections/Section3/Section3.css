@@ -1,0 +1,28 @@
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stocksH2 {
+    margin: 4% 6%;
+}
+
+.roundDiv5 {
+    margin: 8% 0;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+.roundDiv5 div {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #D1D1D0;
+}
+
+.roundDiv5 :first-child {
+    background-color: #EC6A06;
+
+}

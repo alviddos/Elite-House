@@ -1,0 +1,70 @@
+header {
+    position: relative;
+    background: url('../../img/Fasad.png') center/cover no-repeat;
+    height: 120vh;
+}
+
+.containerHeader {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.logo {
+    margin-right: 150px;
+}
+
+.headerUl {
+    display: flex;
+    flex: 0 1 50%;
+    justify-content: space-around;
+    align-items: center;
+
+    /* width: 75%; */
+}
+
+.headerUl a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* margin: 10px 2px; */
+    color: #5B5B5B;
+}
+
+.soc_media {
+    display: flex;
+    align-items: center;
+    flex: 0 1 25%;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+
+.soc_media p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.headerBtn {
+    position: absolute;
+    right: 75px;
+    bottom: 48px;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 230px;
+    height: 45px;
+    justify-content: space-evenly;
+}

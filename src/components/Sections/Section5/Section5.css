@@ -1,0 +1,38 @@
+.mapAddress {
+    margin-top: 5%;
+    height: 100vh;
+    position: relative;
+}
+
+.mapAddress img {
+    position: absolute;
+}
+
+.mapAddress :last-child {
+    left: 743px;
+    top: 230px;
+}
+
+.mapAddress :nth-child(2) {
+    left: 693px;
+    top: 369px;
+}
+
+.mapAddress :nth-child(3) {
+    left: 313px;
+    top: 199px;
+}
+
+.mapAddress :nth-child(4) {
+    left: 965px;
+    top: 91px;
+}
+
+.mapAddress :nth-child(5) {
+    left: 558px;
+    top: 62px;
+}
+
+.mapAddress :first-child {
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+.cardPartners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+
+.cardPartners div {
+    display: flex;
+    flex: 0 1 15.5%;
+    justify-content: center;
+    align-items: center;
+    height: 138px;
+}
+
+.cardPartners div:hover {
+    display: flex;
+    flex: 0 1 15.5%;
+    justify-content: center;
+    align-items: center;
+    height: 138px;
+    background: #F2F2F2;
+    border-radius: 5px;
+}
+
+#barter:hover:after {
+    content: attr(data-name);
+    position: absolute;
+    margin-top: 95px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 3px 0;
+    color: #5B5B5B;
+}
